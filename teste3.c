@@ -1,18 +1,18 @@
 #include "stdio.h"
 int main() {
-     
+ // sinaliza o nome das variantes  
     float nota1, nota2, nota3;
     float nota;
-
+// sinaliza o que deve ser impresso a partir dos comandos
     printf("nota1:  ");
     scanf("%f", &nota1); 
     printf("nota2:  ");
     scanf("%f", &nota2);
     printf("nota3:  ");
     scanf("%f", &nota3);
-
+// realiza a media das notas
     nota= (nota1/nota2/nota3) /2; 
-    
+// sinaliza os limites da variante    
     if (nota < 0 || nota > 10.0) 
     {
     printf ("valor informado invalido!\n");

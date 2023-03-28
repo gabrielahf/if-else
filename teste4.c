@@ -13,9 +13,10 @@ int main() {
     printf("lado c:  ");
     scanf("%f", &lc);
 
-    if ( lc >= (la + lb) || la >= (lb + lc) || lb >= (la + lc)); {
-       printf("valor invalido\n");
-    } else {
+   if (lc >= (la + lb) || la >= (lb + lc) || lb >= (la + lc))
+   {
+     printf("valor invalido\n");
+   } else {
             sp = (la + lb + lc) / 2;
             area = sqrt (sp * (sp - la) * (sp - lb) * (sp - lc));
                           printf("area:  ");
